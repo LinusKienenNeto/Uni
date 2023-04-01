@@ -11,7 +11,8 @@ body {
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 25px;
+    padding: 20px;
 }
 
 /* Links  */
@@ -25,7 +26,9 @@ body {
 }
 
 .sidenav a:hover{
-    color: red;
+    color: blue;
+    padding: 0ch;
+    transition: 1s;
 }
 
 .main {
@@ -46,6 +49,7 @@ body {
     background-color: #818181;
     border-radius: 5px;
     border: 1px solid rgba(147, 184, 189,0.8);
+
     
     
 }
