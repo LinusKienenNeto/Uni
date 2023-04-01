@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color:deepskyblue;
 }
 
 .sidenav {
@@ -25,7 +25,7 @@ body {
 }
 
 .sidenav a:hover{
-    color: #f1f1f1;
+    color: red;
 }
 
 .main {
@@ -33,6 +33,22 @@ body {
     padding: 0px 10px;
 }
 
+/* container */
+
+.container {
+    position:fixed ;
+    padding: 18px 6% 18px 6%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    background-color: #818181;
+    border-radius: 5px;
+    border: 1px solid rgba(147, 184, 189,0.8);
+    
+    
+}
 
 
 
