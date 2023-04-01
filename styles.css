@@ -1,5 +1,6 @@
 body {
     background-color:deepskyblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .sidenav {
@@ -26,11 +27,13 @@ body {
 }
 
 .sidenav a:hover{
-    color: blue;
+    color:wheat;
     padding: 0ch;
     transition: 1s;
     
 }
+
+
 
 .main {
     margin-left: 160px;
@@ -54,6 +57,7 @@ body {
     
     
 }
+
 
 
 
