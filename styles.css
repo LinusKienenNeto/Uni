@@ -4,8 +4,8 @@ body {
 }
 
 .sidenav {
-    height: 100%;
-    width: 130px;
+    height: 50px;
+    width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -24,6 +24,7 @@ body {
     font-size: 25px;
     color: #818181;
     display: block;
+    float: left;
 }
 
 .sidenav a:hover{
