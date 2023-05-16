@@ -82,8 +82,8 @@ input {
     -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
     box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
    
-    -webkit-transition: all 0.2s linear;
-    transition: all 0.2s linear;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
   }
    
   /*estilo do botão submit */
@@ -101,7 +101,7 @@ input {
     -webkit-border-radius: 5px;
     border-radius: 5px;
    
-    transition: all 0.2s linear;
+    transition: all 0.1s linear;
   }
    
   /*estilo do botão submit no hover */
@@ -136,8 +136,8 @@ input {
     -webkit-border-radius: 4px;
     border-radius: 4px;  
    
-    -webkit-transition: all 0.4s linear;
-    transition: all 0.4s  linear;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s  linear;
   }
    
   .link a:hover {
