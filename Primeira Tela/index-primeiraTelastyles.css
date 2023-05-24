@@ -23,6 +23,7 @@ a.links{
     min-height: 560px;
     margin: 0px auto;
     position: relative;
+    
 }
 
 h1 {
@@ -48,10 +49,13 @@ h1:after{
 
 p{
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .content p:first-child{
     margin: 0px;
+    
 }
 
 label{
@@ -71,10 +75,11 @@ input {
    
   /*estilo dos input,  menos o checkbox */
   input:not([type="checkbox"]){
-    width: 95%;
+    width: 50%;
     margin-top: 4px;
     padding: 10px;    
     border: 1px solid #b2b2b2;
+    
    
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -148,13 +153,14 @@ input {
 
   #cadastro, 
 #login{
-  position: absolute;
+  position: top;
   top: 150px;
   width: 88%;   
   padding: 18px 6% 60px 6%;
   margin: 0 0 35px 0;
   background: #f7f7f7;
   border: 1px solid rgba(147, 184, 189,0.8);
+  align-items: center;
    
 
   border-radius: 5px;
