@@ -257,3 +257,21 @@ input[type='submit']:hover {
   margin-bottom: 20px;
 }
 
+.barra-seletora {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background-color: #f2f2f2;
+}
+
+.item-mes {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.item-mes:hover {
+  background-color: #e0e0e0;
+}
