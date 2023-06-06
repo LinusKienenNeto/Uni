@@ -1,49 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seu consumo</title>
-    <link rel="stylesheet" href="index-segundaTelastyles.css">
-    <link rel="stylesheet" href="script.js">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seu consumo</title>
+  <link rel="stylesheet" href="index-segundaTelastyles.css">
+  <link rel="stylesheet" href="script.js">
 </head>
+
 <body>
-    <div id="cadastro">
-        <form method="post" action=""> 
-          <h1>Seu Consumo Anual</h1> 
-           
-          <p> 
+  <div id="cadastro">
+    <form method="post" action="">
+      <h1>Seu Consumo Anual</h1>
+
+      <p>
+        <label for="nome_cad"> </label>
+        <input id="nome_cad" name="nome_cad" required="required" type="text" />
+      </p>
+
+      <div id="mes">
+        <form method="post" action="">
+          <h1>Seu Consumo Mensal</h1>
+          <p>
             <label for="nome_cad"> </label>
-            <input id="nome_cad" name="nome_cad" required="required" type="text"/>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" />
+          </p>
+        </form>
+        <ul class="barra-seletora">
+          <li class="item-mes">Janeiro</li>
+          <li class="item-mes">Fevereiro</li>
+          <li class="item-mes">Março</li>
+          <li class="item-mes">Abril</li>
+          <li class="item-mes">Maio</li>
+          <li class="item-mes">Junho</li>
+          <li class="item-mes">Julho</li>
+          <li class="item-mes">Agosto</li>
+          <li class="item-mes">Setembro</li>
+          <li class="item-mes">Outubro</li>
+          <li class="item-mes">Novembro</li>
+          <li class="item-mes">Dezembr</li>
+          <!-- Adicione os outros meses aqui -->
+        </ul>
+      </div>
+      <div id="porcentagem">
+        <form method="post" action="">
+          <h1>Quanto você quer economizar?</h1>
+
+          
+
+          <p>
+            <label for="nome_cad"> </label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" />
           </p>
 
-          <div id="mes">
-            <form method="post" action=""> 
-              <h1>Seu Consumo Mensal</h1> 
-              <p> 
-                <label for="nome_cad"> </label>
-                <input id="nome_cad" name="nome_cad" required="required" type="text"/>
-              </p>
-            </form>
-            <ul class="barra-seletora">
-              <li class="item-mes">Janeiro</li>
-              <li class="item-mes">Fevereiro</li>
-              <li class="item-mes">Março</li>
-              <li class="item-mes">Abril</li>
-              <li class="item-mes">Maio</li>
-              <li class="item-mes">Junho</li>
-              <li class="item-mes">Julho</li>
-              <li class="item-mes">Agosto</li>
-              <li class="item-mes">Setembro</li>
-              <li class="item-mes">Outubro</li>
-              <li class="item-mes">Novembro</li>
-              <li class="item-mes">Dezembro</li>
-              <!-- Adicione os outros meses aqui -->
-            </ul>
-          </div>
-
-    
           <!--<p> 
             <label for="email_cad">Seu e-mail</label>
             <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
@@ -64,5 +75,6 @@
           </p>-->
 
 
-</form>
+        </form>
+
 </html>
